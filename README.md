@@ -24,9 +24,9 @@ Good luck!!
 ## How to Use
 
 1. Download the source at the following link https://github.com/alfinauzikri/Asus-Vivobook-Max-X441UVK-Hackintosh/releases
-2. Select based on the mac OS version used on the device.
+2. Select based on the macOS version used on the device.
 3. Extract and then there is an EFI folder that is ready to use.
 4. Backup your old EFI folder.
 5. Then, move the new EFI folder containing the files that are ready to use.
 6. Run after completing all the steps above.
-7. Feedback is needed, in order to make the repository even better and more useful. Thank you!!
+7. Feedback is needed, in order to make the repository, even better and more useful. Thank you!!
