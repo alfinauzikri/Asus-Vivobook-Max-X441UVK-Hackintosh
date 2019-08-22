@@ -20,7 +20,7 @@ Good luck!!
 - USB       : Intel series
 - Boot Mode : UEFI
 
-<br>
+
 ## How to Use
 
 1. Download the source at the following link https://github.com/alfinauzikri/Asus-Vivobook-Max-X441UVK-Hackintosh/releases
