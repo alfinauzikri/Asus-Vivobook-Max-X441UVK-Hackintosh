@@ -1,1 +1,1 @@
-# Asus-Vivobook-Max-X441UVK-Hackintosh
+# Asus Vivobook Max X441UVK Hackintosh
