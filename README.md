@@ -79,7 +79,7 @@ Good luck!!
 2. Extract package and run the script install_daemon.sh
 3. Reboot
 
-<img>x441uvk.png</img>
+![Screenshot](X441UVK-SS.png?raw=true)
 
 alfinauzikri | t.me/alfinauzikri
 
