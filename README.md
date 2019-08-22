@@ -42,7 +42,7 @@ Good luck!!
 
 ### Audio
 
-1. 1. Download the <b>CodecCommander.kext</b> file from my repository and <b>Kextbeast 2.0.2</b> from tonymacX86.com or internet.
+1. Download the <b>CodecCommander.kext</b> file from my repository and <b>Kextbeast 2.0.2</b> from tonymacX86.com or internet.
 2. Extract <b>CodecCommander.kext.zip</b> and place <b>CodecCommander.kext</b> on the desktop.
 3. Run Kextbeast 2.0.2 and select the installation location at *Library/Extensions*.
 4. After the above steps are complete, Download the ALCPlugFix for ALC255 from the following repository https://github.com/black-dragon74/ALCPlugFix/releases
