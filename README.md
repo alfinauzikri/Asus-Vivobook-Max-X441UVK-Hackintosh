@@ -79,6 +79,7 @@ Good luck!!
 2. Extract package and run the script install_daemon.sh
 3. Reboot
 
+<img>x441uvk.png</img>
 
 alfinauzikri | t.me/alfinauzikri
 
