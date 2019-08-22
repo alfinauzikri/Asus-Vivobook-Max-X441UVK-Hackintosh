@@ -6,7 +6,7 @@
 - BIOS      : X441UVK.324
 - CPU       : Intel Core i3-7100U
 - RAM       : 8GB DDR4 2133Mhz
-*Storage
+### Storage
 - HDD       : 1 TB
 - SSD       : 240GB
 - iGPU      : Intel HD Graphics 620
