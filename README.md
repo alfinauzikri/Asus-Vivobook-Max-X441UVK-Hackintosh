@@ -1,8 +1,7 @@
 # Asus Vivobook Max X441UVK Hackintosh
 
-Please!! Read carefully before applying on your device. 
-This time I have updated my device's BIOS to the latest version. 
-The latest version is currently at X441UVK.324
+*Please!! Read carefully before applying on your device. <br>
+This time I have updated my device's BIOS to the latest version. The latest version is currently at X441UVK.324 <br>
 Good luck!!
 
 ## Specification
