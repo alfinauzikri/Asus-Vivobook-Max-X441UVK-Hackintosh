@@ -30,3 +30,21 @@ Good luck!!
 5. Then, move the new EFI folder containing the files that are ready to use.
 6. Run after completing all the steps above.
 7. Feedback is needed, in order to make the repository, even better and more useful. Thank you!!
+
+## How to Fix
+
+### Wifi
+
+1. Download the <b>AirPortAtheros40.kext</b> file for the <b>AR9565 model</b> from my repository and <b>Kextbeast 2.0.2</b> from tonymacX86.com or internet.
+2. Extract <b>AirPortAtheros40.kext.zip</b> and place <b>AirPortAtheros40.kext</b> on the desktop.
+3. Run Kextbeast 2.0.2 and select the installation location at *Library/Extensions*.
+4. Reboot
+
+### Audio
+
+1. 1. Download the <b>CodecCommander.kext</b> file from my repository and <b>Kextbeast 2.0.2</b> from tonymacX86.com or internet.
+2. Extract <b>CodecCommander.kext.zip</b> and place <b>CodecCommander.kext</b> on the desktop.
+3. Run Kextbeast 2.0.2 and select the installation location at *Library/Extensions*.
+4. After the above steps are complete, Download the ALCPlugFix for ALC255 from the following repository https://github.com/black-dragon74/ALCPlugFix/releases
+5. Run the script.
+6. And reboot after complete all.
