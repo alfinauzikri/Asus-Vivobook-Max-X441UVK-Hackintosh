@@ -26,7 +26,8 @@ Good luck!!
 - CPU Power Management
 - Sleep/Wake
 - Shutdown and Restart
-- All USB with Maximum Speed
+- USB 3.0
+- USB 2.0
 - Brightness
 - Ethernet
 - Wifi
@@ -42,9 +43,10 @@ Good luck!!
 
 ## Not Work
 
+- USB Type C (Not Tested)
 - SD Card Reader 
 - VGA
-- etc
+- Etc
 
 ## How to Use
 
@@ -91,4 +93,4 @@ Thanks for all support
 - https://github.com/Dids
 - https://github.com/RehabMan
 - https://github.com/hieplpvip
-- etc
+- Etc
