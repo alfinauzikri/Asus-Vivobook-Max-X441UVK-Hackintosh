@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flatty Theme Documentation</title>
+<link rel="stylesheet" href="res/css/doc.css"> 
+</head>
+<body>
+	<header>
+		<div id="navigation">
+            <div class="wrapper">
+                <div class="navlogo"><a href="#">Flatty Documentation</a></div>
+                <div class="right">
+                    <div class="recommend-button"><a href="http://community.mybb.com/mods.php?action=view&pid=617">Recommend</a></div>
+                    <div class="support-button"><a href="http://community.mybb.com/forum-10.html">More Support</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="navhead">
+        <div class="wrapper">
+            <div class="title">Flatty Documentation & Installation Guide</div>
+            <div class="main">In order to install and setup the Flatty Theme properly you should take a look into this guide and follow all mentioned steps as well as instructions as good as possible. If you have problems or questions nevertheless, don't hesitate to ask for help by creating a thread at the MyBB support forums. Feel free to recommend / star the theme in case you like it. :)</div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="wrapper">
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="#j0"><strong>Getting Started</strong></a></li>
+                        <li><a href="#j1">Header</a></li>
+                        <li><a href="#j2">Logo</a></li>
+                        <li><a href="#j3">Sidebar</a></li>
+                        <li><a href="#j4">Who Is Online</a></li>
+                        <li><a href="#j5">About Us</a></li>
+						<li><a href="#j6">Footer</a></li>
+                        <li><a href="#j7">Some Notes</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-content">
+                <div class="white-box">
+                    <h1><a id="j0">Getting Started</a></h1>
+					Before you can even actually start using and configure the Flatty Theme you have to upload <strong>all</strong> files inside the <strong>Upload</strong> folder.<br />
+                    <br/><strong class="dark">1.</strong> Once that's done head to your <code class="npath">Admin Control Panel &nbsp;&nbsp;&rsaquo;&nbsp;&nbsp; Templates & Styles</code> and click on <strong>Import a Theme</strong>.</span>
+                    <br/><strong class="dark">2.</strong> Click the <strong>Choose File</strong> button and search for the <strong>flatty-theme.xml</strong> file which is located right below the upload folder.<br/>
+					<strong class="dark">3.</strong> Give the theme you've just imported a name of your choice, check <strong>Ignore Version Compatibility</strong> and then click on <strong>Import Theme</strong>.
+				</div>
+                <div class="white-box">
+                    <h1><a id="j1">Header Image</a></h1>
+					<span>You could either upload an image with the same name & dimensions to avoid changing anything here or upload your own image. Keep in mind that you have to adjust the css if you are going to use your an image with a different name and custom dimensions. The image should be atleast <strong>200px</strong> in height. Here's how to change the name or dimensions:</span><br /><br />
+					<strong class="dark">1.</strong> First head to your <code class="npath">Admin Control Panel &nbsp;&rsaquo;&nbsp; Templates & Styles &nbsp;&rsaquo;&nbsp; Flatty &nbsp;&rsaquo;&nbsp; global.css</code><br/>
+					<strong class="dark">2.</strong> And then click on <strong>Edit Stylesheet: Advanced Mode</strong>.<br />
+					<strong class="dark">3.</strong> Scroll down to line <strong>56</strong> or search for <strong>#logo</strong> and change the url/name or dimensions of your image.
+				</div>
+                <div class="white-box">
+                    <h1><a id="j2">Logo Image</a></h1>
+					You can either link to your own or an external image or simply upload an image with the same name. The logo should be atleast 50px in height (assuming you didn't change the height of the header).<br /><br />
+					<strong class="dark">1.</strong> Ok, first log into your <strong>Admin Control Panel</strong>.<br />
+					<strong class="dark">2.</strong> Head to <code class="npath">Templates & Styles &nbsp;&nbsp;&rsaquo;&nbsp;&nbsp; Flatty</code><br /> 
+					<strong class="dark">3.</strong> Scroll down to the bottom and find <strong>Board Logo</strong>.<br />
+					<br/>
+					<img src="res/images/bl_img.png" /><br />
+					<br />
+					<strong class="dark">4.</strong> Change / Adjust the path to your image (can also be an external image).<br />
+					<strong class="dark">5.</strong> Scroll down even further and then press <strong>Save Theme Properties</strong>. - Done!<br />
+				</div>
+                <div class="white-box">
+                    <h1><a id="j3">Sidebar + it's content</a></h1>
+					<strong class="dark">Here is how you can customize the Custom Sidebox on the index page:</strong><br /><br />
+					<strong class="dark">1.</strong> First log into your <strong>Admin Control Panel</strong>.<br />
+					<strong class="dark">2.</strong> Now head to <code class="npath">Templates & Styles &nbsp;&rsaquo;&nbsp; Templates &nbsp;&rsaquo;&nbsp; Flatty Templates &nbsp;&rsaquo;&nbsp; Index Page Templates &nbsp;&rsaquo;&nbsp; <strong>index</strong></code><br/>
+					<strong class="dark">3.</strong> Scroll down and find line <strong>19</strong> and <strong>26</strong>.<br/>
+					<strong class="dark">4.</strong> Edit the placeholder text on the mentioned lines and then click on <strong>Save and Continue Editing</strong> or <strong>Save and Return to Listing</strong>.<br /><br />
+					<img src="res/images/csb_css.png" /><br /><br />
+					<strong class="dark">And here is how you can remove the Custom Sidebox:</strong><br /><br />
+					<strong class="dark">1.</strong> Do the exact same thing as above (only the first 2 steps though).<br/>
+					<strong class="dark">2.</strong> Scroll down and find line <strong>16</strong> and <strong>30</strong>.<br/>
+					<strong class="dark">3.</strong> Delete everything inside those lines or everything inside the table including the table itself. (See screenshot)<br/>
+				</div>
+                <div class="white-box">
+                    <h1><a id="j4">Who Is Online</a></h1> 
+					By default the Who Is Online content should look different on your end. That's because you have to edit it manually unfortunately, atleast if you want to have it look like on the screenshot.<br/><br />
+					<strong class="dark">1.</strong> First log into your <strong>Admin Control Panel</strong>.<br />
+					<strong class="dark">2.</strong> Head to <code class="npath">Configuration &nbsp;&rsaquo;&nbsp; Languages &nbsp;&rsaquo;&nbsp; Your Language &nbsp;&rsaquo;&nbsp; Options &nbsp;&rsaquo;&nbsp; (Edit Language Variables) &nbsp;&rsaquo;&nbsp; <strong>index.lang.php</code></strong><br/>
+					<strong class="dark">3.</strong> Scroll all the way down to the bottom and find <strong>online_note</strong>
+                    <br/>
+                    <br/><img src="res/images/note_img.png" />
+                    <br/>
+					<br />
+					<strong>Total:{1}&amp;nbsp; ({5}:{4},{9}:{8}, invisible:{6})</strong><br />
+                    Replace your current code by the one you see above (it's the same as shown the on the screenshot above).
+				</div>
+				<div class="white-box">
+                    <h1><a id="j5">About Us</a></h1> 
+					Here I'm going to show you how can customize the About Us text.<br /><br />
+					<strong class="dark">1.</strong> First log into your <strong>Admin Control Panel</strong>.<br />
+					<strong class="dark">2.</strong> Now head to <code class="npath">Templates & Styles &nbsp;&rsaquo;&nbsp; Templates &nbsp;&rsaquo;&nbsp; Flatty Templates &nbsp;&rsaquo;&nbsp; Footer Templates &nbsp;&rsaquo;&nbsp; <strong>footer</code></strong><br />
+					<strong class="dark">3.</strong> Scroll down and find line <strong>28</strong> - <strong>30</strong>.<br />
+                    <br/>
+					<img src="res/images/au_img.png" />
+					<br />
+					<br />
+					<strong class="dark">4.</strong> Delete / Customize the plain placeholder text inside the <strong>&lt;h2&gt;&lt;/h2&gt;</strong> and <strong>&lt;span&gt;&lt;/span&gt;</strong> tags.<br />
+					<strong class="dark">5.</strong> Click on <strong>Save and Continue Editing</strong> or <strong>Save and Return to Listing</strong> - Done!
+				</div>
+				<div class="white-box">
+                    <h1><a id="j6">Footer Links</a></h1>
+					<strong class="dark">Here is how you can customize the Footer 'Item' Text:</strong><br /><br />
+					<strong class="dark">1.</strong> First log into your <strong>Admin Control Panel</strong>.<br />
+					<strong class="dark">2.</strong> Now head to <code class="npath">Templates & Styles &nbsp;&rsaquo;&nbsp; Templates &nbsp;&rsaquo;&nbsp; Flatty Templates &nbsp;&rsaquo;&nbsp; Footer Templates &nbsp;&rsaquo;&nbsp; <strong>footer</code></strong><br />
+					<strong class="dark">3.</strong> Scroll down and find line <strong>44</strong>, <strong>46</strong>, <strong>52</strong> and <strong>58</strong>.<br />
+					<br/>
+					<img src="res/images/item_img.png" />
+					<br />
+					<br />
+					<strong class="dark">4.</strong> Customize the placeholder text within the <strong>&lt;span&gt;&lt;/span&gt;</strong> tags of the mentioned lines above.<br />
+					<strong class="dark">5.</strong> Click on <strong>Save and Continue Editing</strong> or <strong>Save and Return to Listing</strong> - Done!<br /><br />
+					<br />
+					<strong class="dark">And here is how you can customize the Social Media Links:</strong><br /><br />
+					<strong class="dark">1.</strong> Do the exact same thing as above (only the first 2 steps though).<br/>
+					<strong class="dark">2.</strong> Scroll down and find line <strong>32</strong> - <strong>38</strong>.<br />
+					<br/>
+					<img src="res/images/social_img.png" /><br /><br />
+					<strong class="dark">3.</strong> Edit / Remove the already existing links or add your own.<br/>
+					<strong class="dark">4.</strong> Click on <strong>Save and Continue Editing</strong> or <strong>Save and Return to Listing</strong>.<br />
+					<br />
+					If you also want to customize the Footer Menu Links you basically have to do the exact same things explained above. Everything necessary is located in the Footer Templates.
+				</div>
+            </div>
+            <br />
+            <div class="main-content">
+                <div class="white-box">
+                    <h1><a id="j7">Some additional notes..</a></h1>
+                    <strong class="dark">A.</strong> I recommend you and your users to use the <strong>Classic Post-Mode</strong> since I haven't really optimized the default Post-Mode ∴ User CP &nbsp;&raquo;&nbsp; Edit Options &nbsp;&raquo;&nbsp; and check Display post in Classic Mode. There are tutorials out there which are explaining you how to force every user to use the classic Post-Mode.</span>
+                    <br/>
+                    <br/>
+					<strong class="dark">B.</strong> If you are using the classic postbit mode as default, I'm recommending you to use a default avatar size of minimum <strong>90</strong> x <strong>90</strong>. The maximum should be around <strong>100</strong> x <strong>100</strong>.</span>
+                    <br/>
+                    <br/>
+					<strong class="dark">C.</strong> <span>Please <strong>do not</strong> send me a private message if you got a flatty related problem or question. You should either create a thread in the theme support forum or create a post in the <a href="https://community.mybb.com/thread-208140.html">Flatty Release Thread</a> instead. You should also make sure that your question hasn't been answered already by using Google or the MyBB search function first.</span></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+		<div class="wrapper">Copyright &copy; 2015-2019 by <a href="http://community.mybb.com/user-102346.html">m0ckingbird</a></div>
+    </div>
+</body>
+</html>
