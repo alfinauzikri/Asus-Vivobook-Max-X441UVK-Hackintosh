@@ -4,6 +4,10 @@
 This time I have updated my device's BIOS to the latest version. The latest version is currently at <b>X441UVK.324</b>. <br>
 Good luck!!
 
+## Read Documentation
+
+New Documentation at https://alfinauzikri.github.io/Asus-Vivobook-Max-X441UVK-Hackintosh/
+
 ## Specification
 
 - Model     : X441UVK
@@ -47,7 +51,3 @@ Good luck!!
 - SD Card Reader 
 - VGA
 - Etc
-
-## Read Documentation
-
-New Documentation at https://alfinauzikri.github.io/Asus-Vivobook-Max-X441UVK-Hackintosh/
