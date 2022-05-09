@@ -6,7 +6,7 @@ Good luck!!
 
 ## Read Documentation
 
-New Documentation at https://alfauzikri.my.id/Asus-Vivobook-Max-X441UVK-Hackintosh/
+New Documentation at https://blog.alfauzikri.my.id/Asus-Vivobook-Max-X441UVK-Hackintosh/
 
 ## Specification
 
